@@ -21,9 +21,10 @@
             controllerAs: 'vm'
           })
           .state('contact', {
-            url: 'app/modules/contact/contact',
-            templateUrl: 'contact.html'
+	    url: '/contact',
+            templateUrl: 'app/modules/contact/contact.html',
+            controller: 'contactCtrl',
+            controllerAs: 'vm'
           })
       }
-  
 })();
