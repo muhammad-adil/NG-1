@@ -1,0 +1,24 @@
+{
+  "name": "adil.ng.app",
+  "version": "1.0.1",
+  "description": "first angular app for ng1 training",
+  "main": "app.module.js",
+  "dependencies": {
+    "angular": "^1.5.11",
+    "angular-ui-router": "^1.0.3",
+    "install": "^0.10.1",
+    "npm": "^5.0.2"
+  },
+  "devDependencies": {
+    "angular": "^1.5.11",
+    "angular-ui-router": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "YoYo"
+  ],
+  "author": "Adil Muhammad Rathore",
+  "license": "MIT"
+}
