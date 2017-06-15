@@ -3,7 +3,7 @@
 
 	/** @ngInject */
 	angular
-		.module('taste-angular')
+		.module('a-ng-app')
 		.service('UserService', UserService);
 
 		function UserService() {
