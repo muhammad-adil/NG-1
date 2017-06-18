@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="a-ng-app">
+  <head>
+    <link rel="stylesheet" href="node_modules/bootstrap-css-only/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div ng-controller="MainController as vm">
+	    <div>
+			<nav class="navbar navbar-default">
+			    <div class="container">
+					<h3 class="text-muted">angular tutorial</h3>
+			
+			
+			        <ul class="nav navbar-nav">
+			          <li><a ui-sref="home">Home</a></li>
+			          <li><a ui-sref="about">About</a></li>
+			        </ul>
+			        <ul class="nav navbar-nav navbar-right">
+			              <li>
+			                <a href="javascript:;">
+			              		{{vm.title}}
+			                </a>
+			              </li>
+	            	</ul>
+	        	</div>
+	      	</nav>
+
+		    <div class="container">
+				<ui-view></ui-view>
+		    </div>
+
+	    </div>
+  	</div>
+
+  </body>
+  
+  
+	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+  
+	<!-- Application scripts -->
+	<script src="app/core/app.module.js"></script>
+	<script src="app/core/app.controller.js"></script>
+	<script src="app/core/app.route.js"></script>
+
+  
+	<script type="text/javascript" src="app/modules/home/homeCtrl.js"></script>
+	<script type="text/javascript" src="app/modules/about/aboutCtrl.js"></script>
+	<script type="text/javascript" src="app/modules/about/contactCtrl.js"></script>	
+<!-- 	<script type="text/javascript" src="app/modules/contact/contactCtrl.js"></script> -->
+
+</html>

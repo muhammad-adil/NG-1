@@ -1,0 +1,14 @@
+{
+  "name": "ng-with-ui-router",
+  "version": "0.1.0",
+  "description": "angularjs with ui-router uibootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adil",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^1.0.3"
+  }
+}
