@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 	angular
-		.module('a-ng-app')
+		.module('ng-app')
 		.controller('contactCtrl', aboutCtrl)
 
 	function contactCtrl() {

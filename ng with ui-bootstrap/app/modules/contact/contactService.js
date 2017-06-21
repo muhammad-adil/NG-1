@@ -1,13 +1,18 @@
 (function(){
 	'use strict';
+
+	/** @ngInject */
 	angular
-		.module('a-ng-app')
-		.controller('aboutCtrl', aboutCtrl)
+		.module('ng-app')
+		.service('ContactService', ProfileService);
 
-	function aboutCtrl() {
-		var vm = this;
-		vm.title = "em from About ctrl"
+		function ContactService() {
+			var CatactServiceTitle = "This is a service Title coming from ContactService!";
 
-	}
+
+			return {
+				profileServiceTitle
+			}
+		}
 
 })();

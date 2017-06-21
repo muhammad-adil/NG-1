@@ -2,7 +2,7 @@
 	'use strict';
 	
 	angular
-				.module('a-ng-app')
+				.module('ng-app')
 				.controller('MainController', MainController);
 
 	function MainController() {

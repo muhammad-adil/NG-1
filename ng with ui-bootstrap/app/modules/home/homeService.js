@@ -3,7 +3,7 @@
 
 	/** @ngInject */
 	angular
-		.module('a-ng-app')
+		.module('ng-app')
 		.service('HomeService', HomeService);
 
 		function HomeService() {
