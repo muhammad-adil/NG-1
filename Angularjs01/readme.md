@@ -1,4 +1,4 @@
-##Angularjs01 Practice Project
+## Angularjs01 Practice Project
 
-# using mock data
-#Then using .http , .get, .then 
+### using mock data
+### Then using .http , .get, .then 
