@@ -1,0 +1,26 @@
+{
+  "name": "angularjs01",
+  "version": "0.1.1",
+  "description": "angularjs work, mock data, api .http .get .then work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Adil/NG-1.git"
+  },
+  "author": "Adil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Adil/NG-1/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Adil/NG-1#readme",
+  "devDependencies": {
+    "angular": "^1.5.11",
+    "angular-ui-bootstrap": "^2.5.0",
+    "angular-ui-router": "^1.0.3",
+    "lite-server": "^2.3.0"
+  }
+}
